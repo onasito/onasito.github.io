@@ -51,7 +51,7 @@ const projects = [
   {
     number: '04',
     title: 'IngrediScan Android App',
-    image: '/images/ingrediScan.png',
+    image: '/images/ingrediscanLogo.png',
     description:
       'Created an Android application that uses CameraX for barcode scanning and integrates with the USDA FoodData Central API to display nutritional data for scanned items. Handled API integration and organized the returned data into usable information for the app interface.',
     tech: ['Kotlin'],

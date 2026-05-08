@@ -37,7 +37,7 @@ export default function Hero() {
       </div>
       <p className="hero-bio">Turning a lifelong passion for sports into a career focused on analytics, machine learning, and software development. I enjoy building data-driven applications that transform raw information into meaningful insights.</p>
       <div className="hero-cta">
-        <a href="/resume.pdf" download className="btn btn-primary">
+        <a href="/OnasisCSResume.pdf" download className="btn btn-primary">
           <FaDownload />
           Résumé
         </a>
