@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { FaDownload } from 'react-icons/fa';
 import './Hero.css';
 
-const roles = ['Junior Software Engineer', 'Data Scientist', 'Tech Enthusiast', 'Lifelong Learner'];
+const roles = ['Junior Software Engineer', 'Data Scientist', 'Builder & Analyst', 'Sports Enthusiast'];
 
 export default function Hero() {
   const [roleIndex, setRoleIndex] = useState(0);

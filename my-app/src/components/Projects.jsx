@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { FaChevronLeft, FaChevronRight, FaChartLine, FaKey, FaJava, } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight, FaChartLine, FaKey, FaJava, FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import {
   SiPython, SiScikitlearn, SiPandas, SiJavascript,
   SiReact, SiCss, SiVite, SiNodedotjs, SiExpress, SiMongodb, SiKotlin
@@ -31,6 +31,8 @@ const projects = [
     description:
       'A full-stack web application that predicts Premier League match outcomes using Python machine learning models. Built with a Node.js backend and React frontend, it provides users with predictions and insights based on historical match data.',
     tech: ['Python', 'scikit-learn', 'Pandas', 'JavaScript', 'Matplotlib', 'React', 'JWT', 'Node.js', 'Express'],
+    website: 'https://premier-league-predictor-livid.vercel.app/',
+    repo: 'https://github.com/onasito/premier-league-predictor.git',
   },
   {
     number: '02',
@@ -39,6 +41,8 @@ const projects = [
     description:
       'Full-stack restaurant ordering platform with PostgreSQL and JWT authentication, supporting secure user accounts, menu item management, and customer order tracking.',
     tech: ['React', 'JavaScript', 'CSS', 'Vite', 'Node.js', 'Express', 'PostgreSQL', 'JWT'],
+    website: '',
+    repo: 'https://github.com/onasito/kabob-express-app.git',
   },
   {
     number: '03',
@@ -46,7 +50,9 @@ const projects = [
     image: '/images/espresso.jpg',
     description:
       'Designed and implemented a multi-stage compiler in Java for the Espresso language, featuring lexical analysis, syntax parsing, AST construction, and static type checking.',
-    tech: ['Java' ],
+    tech: ['Java'],
+    website: '',
+    repo: '',
   },
   {
     number: '04',
@@ -55,6 +61,8 @@ const projects = [
     description:
       'Created an Android application that uses CameraX for barcode scanning and integrates with the USDA FoodData Central API to display nutritional data for scanned items. Handled API integration and organized the returned data into usable information for the app interface.',
     tech: ['Kotlin'],
+    website: '',
+    repo: '',
   }
 ];
 
@@ -101,6 +109,20 @@ export default function Projects() {
                   );
                 })}
               </div>
+              {(project.website || project.repo) && (
+                <div className="project-links">
+                  {project.website && (
+                    <a href={project.website} target="_blank" rel="noopener noreferrer" className="project-link">
+                      <FaExternalLinkAlt /> Live Site
+                    </a>
+                  )}
+                  {project.repo && (
+                    <a href={project.repo} target="_blank" rel="noopener noreferrer" className="project-link">
+                      <FaGithub /> Repo
+                    </a>
+                  )}
+                </div>
+              )}
             </article>
           ))}
         </div>
