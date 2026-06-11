@@ -29,7 +29,7 @@ const projects = [
     title: 'Premier League Predictor',
     image: '/images/premier-league.avif',
     description:
-      'A full-stack web application that predicts Premier League match outcomes using Python machine learning models. Built with a Node.js backend and React frontend, it provides users with predictions and insights based on historical match data.',
+      'A full-stack web application that predicts Premier League match outcomes using an XGBoost model trained on historical match data. Through feature engineering and hyperparameter tuning, achieved ~55% prediction accuracy. Built with a Node.js backend and React frontend.',
     tech: ['Python', 'scikit-learn', 'Pandas', 'JavaScript', 'Matplotlib', 'React', 'JWT', 'Node.js', 'Express'],
     website: 'https://premier-league-predictor-livid.vercel.app/',
     repo: 'https://github.com/onasito/premier-league-predictor.git',
