@@ -2,7 +2,8 @@ import { useRef } from 'react';
 import { FaChevronLeft, FaChevronRight, FaChartLine, FaKey, FaJava, FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import {
   SiPython, SiScikitlearn, SiPandas, SiJavascript,
-  SiReact, SiCss, SiVite, SiNodedotjs, SiExpress, SiMongodb, SiKotlin
+  SiReact, SiCss, SiVite, SiNodedotjs, SiExpress, SiMongodb, SiKotlin,
+  SiTypescript
 } from 'react-icons/si';
 import './Projects.css';
 
@@ -21,6 +22,7 @@ const techIcons = {
   'JWT':         { icon: FaKey,         color: '#FB015B' },
   'Java':        { icon: FaJava,        color: '#F7931E' },
   'Kotlin':      { icon: SiKotlin,      color: '#0095D5' },
+  'TypeScript':  { icon: SiTypescript,  color: '#007acc' },
 };
 
 const projects = [

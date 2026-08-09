@@ -2,7 +2,7 @@ import './Skills.css';
 import {
   SiCplusplus, SiPython, SiJavascript, SiNodedotjs,
   SiDotnet, SiReact, SiScikitlearn, SiPandas,
-  SiExpress, SiMongodb, SiGit, SiKotlin
+  SiExpress, SiMongodb, SiGit, SiKotlin, SiTypescript
 } from 'react-icons/si';
 import { FaJava, FaDatabase, FaAws } from 'react-icons/fa';
 
@@ -13,6 +13,7 @@ const skills = [
       { name: 'C++',        icon: SiCplusplus },
       { name: 'Python',     icon: SiPython },
       { name: 'JavaScript', icon: SiJavascript },
+      { name: 'TypeScript', icon: SiTypescript },
       { name: 'SQL',        icon: FaDatabase },
       { name: 'Java',       icon: FaJava },
       { name: 'Node.js',    icon: SiNodedotjs },
