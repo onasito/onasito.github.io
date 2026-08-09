@@ -36,13 +36,13 @@ const projects = [
   },
   {
     number: '02',
-    title: 'Kabob Express Website',
-    image: '/images/kabob-express.png',
+    title: 'Credit Risk Dashboard',
+    image: '/images/credit-risk.jpg',
     description:
-      'Full-stack restaurant ordering platform with PostgreSQL and JWT authentication, supporting secure user accounts, menu item management, and customer order tracking.',
-    tech: ['React', 'JavaScript', 'CSS', 'Vite', 'Node.js', 'Express', 'PostgreSQL', 'JWT'],
-    website: '',
-    repo: 'https://github.com/onasito/kabob-express-app.git',
+      'An interactive tool for exploring credit risk predictions on real loan applicant data, powered by a XGBoost model trained on bureau history, prior applications, and payment behavior. React + FastAPI, deployed end-to-end.',
+    tech: ['React', 'Python', 'TypeScript', 'CSS', 'Vite', 'Pandas'],
+    website: 'https://credit-risk-dashboard-psi.vercel.app/',
+    repo: 'https://github.com/onasito/credit-risk-dashboard.git',
   },
   {
     number: '03',
